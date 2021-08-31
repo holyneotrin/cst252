@@ -1,0 +1,24 @@
+body {
+  background-color: #ece6ba;
+  font-family: monospace;
+  margin: 25px;
+}
+
+p {
+  color: #7eab79;
+  font-size: 14px;
+  text-indent: 20px;
+}
+
+h1 {
+  color: #d9ae21;
+}
+
+#content{
+  background-color: #e0daa8;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 3px #a56eb5;
+}
