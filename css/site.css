@@ -4,6 +4,9 @@ body {
 
 h1 {
   font-size: 48px;
+}
+
+.headers{
   font-family: 'Kaisei Decol', serif;
 }
 
@@ -14,7 +17,7 @@ p{
 
 #content{
   background-color: #d9e4ff;
-  width: 1000px;
+  width: 900px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
@@ -23,12 +26,17 @@ p{
 
 #lab-index{
   font-size: 20px;
-  color: #3a848c;
   padding: 10px;
+  background-color: #d9e4ff;
+  width: 900px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 3px #3a848c;
 }
 
 a:link{
-  color: #000000;
+  color: #005592;
   text-decoration: none;
   background-color: #ffffff;
   padding: 15px 25px;

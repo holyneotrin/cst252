@@ -1,0 +1,23 @@
+.headers-smol{
+  font-size: 36px;
+
+}
+
+h1{
+  font-size: 48px;
+  font-style: italic;
+}
+
+body {
+  padding: 10px;
+  margin: 10px;
+}
+
+.file {
+width: 1500px;
+
+}
+
+img{
+  width: 700px;
+}
