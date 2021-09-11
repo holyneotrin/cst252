@@ -38,7 +38,6 @@ p{
 a:link{
   color: #005592;
   text-decoration: none;
-  background-color: #ffffff;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
@@ -56,6 +55,7 @@ a:hover{
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .column {
   float: left;
   width: 60%;
@@ -68,4 +68,16 @@ a:hover{
 img {
   float: right;
   width: 75%;
+=======
+ul{
+  list-style-type: circle;
+  background: #acb5de;
+  padding: 20px;
+}
+
+ul li{
+  background: #b6dede;
+  margin: 5px;
+  font-family: 'Dosis', sans-serif;
+>>>>>>> 3f1d79beeeb694925325c9224b1bb242f6cff92f
 }
