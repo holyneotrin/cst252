@@ -28,7 +28,7 @@ p{
   font-size: 20px;
   padding: 10px;
   background-color: #d9e4ff;
-  width: 900px;
+  width: 300px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
@@ -38,7 +38,6 @@ p{
 a:link{
   color: #005592;
   text-decoration: none;
-  background-color: #ffffff;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
@@ -54,4 +53,16 @@ a:visited {
 a:hover{
   color: #21d176;
   text-decoration: underline;
+}
+
+ul{
+  list-style-type: circle;
+  background: #acb5de;
+  padding: 20px;
+}
+
+ul li{
+  background: #b6dede;
+  margin: 5px;
+  font-family: 'Dosis', sans-serif;
 }
