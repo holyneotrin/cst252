@@ -1,11 +1,23 @@
 body{
-  background-color: #403233;
+  background-color: #D1E0D1;
 }
 
 #java{
-  background-color: #f19a3e;
+  background-color: #979b7a;
   padding: 10px;
-  border: solid 3px #abedc6;
-  color: #403233;
+  border: solid 3px #1e3d46;
+  color: #f7d886;
   width: 300px;
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 25 %;
+  position: absolute;
+  right: 100px;
+
 }
