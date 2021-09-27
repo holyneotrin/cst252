@@ -1,3 +1,46 @@
 #content {
-background-color: red;
+  background-color: #dcc8a1;
+  padding: 25px;
+  border: solid 5px #6e7979;
+  height: 85vh;
+
 }
+
+body {
+  background-color: #d8b779;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+}
+
+h2{
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+p{
+  font-size: 16px;
+}
+
+#wizard {
+float: right;
+}
+
+div {
+  display: block;
+}
+.name {
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    width: 450px;
+    word-wrap: break-word;
+    font-size: 350%;
+    line-height: 90%;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    margin: 20px;
+    color: #ffffff;
