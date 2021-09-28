@@ -1,0 +1,6 @@
+#onClick {
+  padding: 15px 35px;
+  background-color: green;
+  cursor: pointer;
+  display: inline-block;
+}
