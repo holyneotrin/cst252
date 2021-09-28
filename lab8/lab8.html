@@ -5,6 +5,7 @@
   <title>Lab 8: Anon Functions and Callbacks</title>
   <script type="text/javascript" src="js/lab8.js"></script>
   <link rel="stylesheet" type="text/css" href="../css/site.css">
+  <link rel="stylesheet" type="text/css" href="css/lab8.css">
 </head>
 
 <body>
@@ -14,12 +15,20 @@
     <h1>Lab 8 Experiment</h1>
     <p>Working with your partner, experiment with anonymous functions and callbacks.</p>
     <h2>Challenges</h2>
+    <p>I had some trouble with displaying the css and outputEl.appendChild(newEl). The css I figured out immediately because I only linked the cite css.
+    I kept getting an error message on the console regarding the outputEl.appendChild, so I ended up removing it from the javascript. Luckily nothing broke.</p>
     <h2>Results</h2>
     <p>Go to the console and see the output!</p>
 
-    <div id="js-output">
+
+    <div id = "output">
+      <div id="js-output">
+      </div>
+      <button onClick="javascript:main()">Click Me!</button>
+      <p>My array: [3, 5, 1, 6, 10, 16]</p>
+      <p>Test of sum of array: [6, 8, 4, 9, 13, 19]</p>
+      <p>Product of array: [18, 30, 6, 36, 60, 96]</p>
     </div>
-    <button onClick="javascript:main()">Click Me!</button>
   </main>
 
 </body>
