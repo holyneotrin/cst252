@@ -20,11 +20,13 @@ oneEl.style.color = "white";
 oneEl.style.fontSize = "24px";
 
 //second button
+document.write("<br>");
 var targetEl = document.getElementById("output");
 
 //creates button
 var twoEl = document.createElement("button");
 targetEl.appendChild(twoEl);
+
 //renames button id
 twoEl.id = "button-two";
 //adds text to button
@@ -34,3 +36,4 @@ twoEl.style.backgroundColor = "slategrey";
 twoEl.style.color = "white";
 twoEl.style.fontSize = "24px";
 twoEl.style.fontFamily = "Courier New";
+twoEl.style.margin = "5px";
