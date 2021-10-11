@@ -17,6 +17,16 @@ button.addEventListener('click', function() {
   var name = inputEl.value;
   // run through sort
   var newName = sortText(name);
+	
+	function randomizeName(userName) {
+	    var nameArray = userName.toLowerCase().split("");
+	    console.log("nameArray =", nameArray);
+	    var shuffledArray = shuffleArray(nameArray);
+	    console.log("shuffledArray =", shuffledArray);
+	    var shuffledString = shuffledArray.join("");
+	    var newName = toTitleCase(shuffledString);
+	    return newName;
+	}
 
   // Use this input to change the text from ‘Hello, World!’ to ‘Hello’ + the user’s name
   var newText = "Hello, " + newName + "!";
