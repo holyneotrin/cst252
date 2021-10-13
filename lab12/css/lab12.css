@@ -1,0 +1,43 @@
+#challenge-button {
+  background-color: #36961e;
+  color: white;
+}
+
+#problem-button {
+  background-color: #ba8813;
+  color: white;
+}
+
+#result-button {
+    background-color: #8722b5;
+    color: white;
+}
+
+.challenge1 {
+  color: #36961e;
+}
+
+.challenge2 {
+  color: black;
+}
+.problem1 {
+  color: #ba8813;
+}
+
+.problem2{
+  color: black;
+}
+
+.result1 {
+  color: #8722b5;
+}
+
+.result2{
+  color: black;
+}
+
+#java {
+  font-style: oblique;
+  padding: 20px 0px 0px 0px;
+  font-size: 18px;
+}
