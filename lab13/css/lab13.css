@@ -1,3 +1,53 @@
 p{
   font-size: 16px;
+  width: 800px;
+}
+
+#image  {
+  float: right;
+  width: 1000px;
+  display: none;
+}
+
+#content {
+  padding: 25px;
+  border: solid 5px;
+  height: 75vh;
+  background-color: #f0f2f5;
+  border-color: #a3a586;
+}
+
+#name {
+  position: absolute;
+  top: 110px;
+  right: 70px;
+  width: 450px;
+  word-wrap: break-word;
+  font-size: 350%;
+  line-height: 90%;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 20px;
+  color: blue;
+}
+
+.linkbox {
+  padding: 10px;
+}
+
+.sourcelink {
+  padding: 5px;
+}
+
+.homelink {
+  padding: 5px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+body{
+  background-color: #d9d6bf;
 }
