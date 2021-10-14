@@ -51,3 +51,14 @@ h2 {
 body{
   background-color: #d9d6bf;
 }
+
+#input {
+  height: 24px;
+}
+
+#button {
+  font-size: 18px;
+  text-align: center;
+  background-color: #a3a586;
+  color: white;
+}
