@@ -36,7 +36,7 @@ myButton.addEventListener("click",function(){
   var imageElement = document.getElementById("image");
   imageElement.style.display = imageElement.style.display = "block";
   //displays output
-  newText = "<h3>The Game Master has declared your modifier to be: " + ability + ".</h3>";
+  newText = "<h3>The Game Master has declared your ability score to be: " + ability + ".</h3>";
   document.getElementById("output").innerHTML = newText;
   document.getElementById("name").innerHTML = ability;
 })
