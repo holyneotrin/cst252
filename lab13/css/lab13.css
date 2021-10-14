@@ -29,7 +29,7 @@ p{
   font-family: "Arial", sans-serif;
   text-align: center;
   margin: 20px;
-  color: blue;
+  color: black;
 }
 
 .linkbox {
@@ -56,7 +56,7 @@ body{
   height: 24px;
 }
 
-#button {
+button {
   font-size: 18px;
   text-align: center;
   background-color: #a3a586;
