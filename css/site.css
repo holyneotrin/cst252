@@ -17,7 +17,7 @@ p{
 
 #content{
   background-color: #d9e4ff;
-
+  columns: 600px 2;
   min-height: 500px;
   padding: 10px;
   margin: 10px;
@@ -52,15 +52,6 @@ a:visited {
 a:hover{
   color: #21d176;
   text-decoration: underline;
-}
-
-.column {
-  float: left;
-  width: 60%;
-}
-.column2 {
-  float: right;
-  width: 40%;
 }
 
 img {
