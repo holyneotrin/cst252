@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Lab 17: Object-Oriented Design</title>
+  <link rel="stylesheet" href="css/lab17.css">
+  <script src="js/lab17.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="content">
+    <h1>Lab 17: Object-Oriented Design</h1>
+    <h2>Challenge</h2>
+      <p>Working with your partner, create a JavaScript constructor.</p>
+    <h2>Problems</h2>
+      <p>I had some issues with placing the jquery append, and I forgot to put jquery in my code entirely. So it took me a bit for everything to work.</p>
+    <h2>Results</h2>
+      <p>Here are the results!</p>
+      <h3>Hangman OOP</h3>
+      <ol>
+        <li>One player thinks of a word and the rest of the players guess the word one letter at a time.[Player]</li>
+        <li>The chosen player writes a number of dashes equal to the word length [Player + Hangman]</li>
+        <li>If the guessing player gets a letter correct, the writing player fills out the letter in the correct spots [Player + Hangman]</li>
+        <li>If the letter is not in the word, the writing player draws a pieve of the hangman's gallows. [Player + Hangman]</li>
+        <li>Once the hangman's gallows is fully completed, the game ends. [Hangman]</li>
+        <li>The first player to guess the correct word, gets to choose the next word. [Hangman]</li>
+      </ol>
+    <div id="output">
+      <button id="button">Pwess Me!</button>
+    </div>
+    <a class="sourcelink" href="js/lab17.js">Javascript Source </a>
+  </div>
+
+</body>
+</html>
